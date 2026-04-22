@@ -1,0 +1,12 @@
+# Personal conventions — not shipped
+skill/save-conversation/references/personal-conventions.md
+
+# OS / editor artifacts
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Backups
+*.backup-*
+*.bak
