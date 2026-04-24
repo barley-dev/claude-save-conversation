@@ -29,7 +29,7 @@ Full docs: [`bin/README.md`](bin/README.md).
 
 ### The skill (requires Claude Code)
 
-1. Make sure `session-archive` is on your `$PATH` (see above).
+1. Make sure `session-archive` is on your `$PATH` (see above). The skill calls the script by the exact name `session-archive` — an alias with a different name won't work.
 2. Symlink the skill into Claude Code's skills dir:
    ```bash
    ln -s "$(pwd)/skill/save-conversation" ~/.claude/skills/save-conversation
